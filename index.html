@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mwaniqi's Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Swiper Slider CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <!-- Back to Top Button -->
+<button onclick="topFunction()" id="backToTopBtn" title="Go to top">
+    ↑
+  </button>  
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+        <img src="alex_mwangi.png" alt="Logo" style="height: 60px;">
+      </a>      
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <li class="nav-item">
+        <div class="form-check form-switch ms-3 mt-2">
+          <input class="form-check-input" type="checkbox" id="darkModeToggle">
+          <label class="form-check-label text-dark" for="darkModeToggle">Dark Mode</label>
+        </div>
+      </li>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero">
+    <div class="container">
+        <h1>Hi, I'm Alex Mwangi</h1>
+        <h2><span id="typed"></span></h2>
+        <div class="mt-4">
+            <a href="#contact" class="btn btn-light">Hire Me</a>
+            <a href="alex_portfolio.pdf" class="btn btn-outline-light">Download Portfolio</a>
+        </div>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container" data-aos="fade-up" class="text-center">
+        <h2 class="text-center mb-4">About Me</h2>
+        <div class="text-center">
+            <img src="profile_photo.png" alt="Profile Photo" class="profile-photo">
+        </div>
+        <p class="text-center">I'm a seasoned graphic designer with years of experience creating visually compelling designs across digital and print media.
+             Over time, my passion for visual storytelling led me into web development, where I now blend creativity with code to build engaging, user-focused websites.
+              With a keen eye for aesthetics and a strong grasp of front-end technologies, I bring both form and function to every project I take on.</p>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5 bg-light">
+    <div class="container" data-aos="fade-up">
+        <h2 class="text-center mb-5">My Skills</h2>
+
+        <div class="skills-bar mb-3">
+            <div class="skills-bar-fill" style="width:90%">Web Development - 90%</div>
+        </div>
+        <div class="skills-bar mb-3">
+            <div class="skills-bar-fill" style="width:85%"><span>App Development - 85%</span></div>
+        </div>
+        <div class="skills-bar mb-3">
+            <div class="skills-bar-fill" style="width:88%">UI/UX Design - 88%</div>
+        </div>
+        <div class="skills-bar mb-3">
+            <div class="skills-bar-fill" style="width:82%">Graphic Design - 82%</div>
+        </div>
+        <div class="skills-bar mb-3">
+            <div class="skills-bar-fill" style="width:86%">Responsive Design - 86%</div>
+        </div>
+        <div class="skills-bar mb-3">
+            <div class="skills-bar-fill" style="width:80%">Research & Analysis - 80%</div>
+        </div>
+        <div class="skills-bar mb-3">
+            <div class="skills-bar-fill" style="width:75%">Customer Support - 75%</div>
+        </div>
+        <div class="skills-bar mb-3">
+            <div class="skills-bar-fill" style="width:78%">PSD Design - 78%</div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section with Autoplay -->
+<section id="portfolio" class="py-5">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center mb-5">My Work</h2>
+      <div class="swiper portfolioSwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="sukari_poster.png" class="img-fluid" alt="Project 1"></div>
+            <div class="swiper-slide"><img src="virtual_pay.png" class="img-fluid" alt="Project 2"></div>
+            <div class="swiper-slide"><img src="betika_bet.png" class="img-fluid" alt="Project 3"></div>
+            <div class="swiper-slide"><img src="lexus_new.png" class="img-fluid" alt="Project 4"></div>
+            <div class="swiper-slide"><img src="santoz_new.png" class="img-fluid" alt="Project 5"></div>
+            <div class="swiper-slide"><img src="trend_new.png" class="img-fluid" alt="Project 6"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>  
+
+<!-- Services Section -->
+<section id="services" class="py-5">
+    <div class="container" data-aos="fade-up">
+        <h2 class="text-center mb-5">What I Can Do For You</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-laptop-code fa-2x mb-3"></i>
+                        <h5>Web Development</h5>
+                        <p>Building responsive and dynamic websites to grow your business.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-mobile-alt fa-2x mb-3"></i>
+                        <h5>App Development</h5>
+                        <p>Developing mobile-friendly apps for Android and iOS platforms.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-brush fa-2x mb-3"></i>
+                        <h5>Graphic & Design</h5>
+                        <p>Creating stunning images to give your brand the visual boost.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-light">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center mb-4">Get In Touch</h2>
+      <form id="contactForm" class="row g-3">
+        <div class="col-md-6">
+          <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="col-12">
+          <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+        </div>
+        <div class="col-12">
+          <textarea class="form-control" name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <div id="formAlert" class="mt-3"></div>
+        </div>
+      </form>
+  
+      <!-- Social Media Icons -->
+      <div class="text-center social-icons mt-4">
+        <a href="https://www.linkedin.com/in/alex-mwaniki-508a44212/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Mwaniqi26" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/its_mwaniqi/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>  
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Alex Mwangi. All Rights Reserved.</p>
+</footer>
+
+<!-- JS Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    AOS.init();
+
+    var typed = new Typed('#typed', {
+        strings: ["Web Developer", "UI/UX Designer", "Graphic Designer"],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true
+    });
+
+    window.addEventListener('scroll', function() {
+        document.querySelectorAll('.skills-bar-fill').forEach(bar => {
+            const top = bar.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+            if(top < windowHeight) {
+                bar.style.width = bar.getAttribute('style').split(':')[1];
+            }
+        });
+    });
+
+    var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+    // Portfolio Swiper
+var portfolioSwiper = new Swiper(".portfolioSwiper", {
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    slidesPerView: 1,
+    spaceBetween: 30,
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  }); 
+  // Show button when scrolled down
+window.onscroll = function () {
+    const btn = document.getElementById("backToTopBtn");
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  };
+  
+  // Scroll to top smoothly
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  } 
+  // Dark mode toggle
+document.getElementById('darkModeToggle').addEventListener('change', function () {
+    document.body.classList.toggle('dark-mode');
+  }); 
+  // AJAX Contact Form using Formspree
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+  
+    const form = e.target;
+    const formData = new FormData(form);
+  
+    fetch("https://formspree.io/f/xgvkoyzo", {
+      method: "POST",
+      headers: { 'Accept': 'application/json' },
+      body: formData
+    })
+    .then(response => {
+      if (response.ok) {
+        document.getElementById("formAlert").innerHTML = "<div class='alert alert-success'>Message sent successfully!</div>";
+        form.reset();
+      } else {
+        return response.json().then(data => {
+          throw new Error(data.errors ? data.errors[0].message : "Unknown error");
+        });
+      }
+    })
+    .catch(error => {
+      document.getElementById("formAlert").innerHTML = `<div class='alert alert-danger'>Error: ${error.message}</div>`;
+    });
+  });  
+</script>
+
+</body>
+</html>
