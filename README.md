@@ -5,7 +5,7 @@ This is a responsive, animated personal portfolio website for **Alex Mwangi**, b
 
 ## 🔗 Live Demo
 
-[View Portfolio Live](https://yourusername.github.io/portfolio-site)  
+[View Portfolio Live](https://mwaniqi26.github.io/Portfolio-Website/)  
 
 ---
 
